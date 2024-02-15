@@ -1,0 +1,72 @@
+
+body{
+    max-width: 500px;
+    padding: 10px;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    margin-bottom: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(109, 164, 216);
+    background-color: rgba(255, 255, 255, 0.733);
+}
+main{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.733);
+    border: 5px solid rgb(40, 40, 142);
+    border-radius: 7px;
+}
+.search-form{
+    
+    margin-bottom: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.search-input {
+    width: 100%;
+    border:2px solid rgb(40, 40, 142);
+    border-radius: 10px;
+
+}
+.to-do-list {
+    margin-top: 5px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.to-do-list li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 1.3rem;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-primary {
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add-form{
+    display: flex;
+    border:2px solid rgb(40, 40, 142);
+    border-radius: 10px;
+    background-color: white;
+}
+.add-form input{
+    width: 100%;
+    border: none;
+}
+.add-form button{
+    background-color: #007bff;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+}
+#add{
+    display: flex;
+}
