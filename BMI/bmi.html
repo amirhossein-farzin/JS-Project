@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMI</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="box">
+        <div id="container" class="row">
+          <div class="styleBox col-12">
+            <div class="bmi col-12">
+              <h4>BMI</h4>
+            </div>
+            <div class="age col-8 mx-auto my-3">
+              <h3 class="my-3">age</h3>
+              <input
+                class="w-100"
+                id="age"
+                type="number"
+                style="
+                  text-align: center;
+                  border: none;
+                  border-bottom: 2px solid gray;
+                  border-radius: 5px;
+                  outline: none;
+                  font-size: x-large;
+                  
+                "
+              />
+            </div>
+            <div id="sex" class="form-check sex col-8 mx-auto my-3">
+              <label for="male"><h3>male</h3></label>
+              <input
+                class="mr-3"
+                type="radio"
+                id="male"
+                name="gender"
+                value=""
+              />
+
+              <input
+                class="ml-3"
+                type="radio"
+                id="female"
+                name="gender"
+                value=""
+              />
+              <label for="female"><h3>female</h3></label>
+            </div>
+            <div class="card-deck col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Height(cm)</h4>
+                  <input
+                    class="w-100"
+                    id="height"
+                    type="text"
+                    style="
+                      text-align: center;
+                      border: none;
+                      border-bottom: 2px solid gray;
+                      outline: none;
+                      font-size: x-large;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Weight(kg)</h4>
+                  <input
+                    class="w-100"
+                    id="weight"
+                    type="text"
+                    style="
+                      text-align: center;
+                      border: none;
+                      border-bottom: 2px solid gray;
+                      outline: none;
+                      font-size: x-large;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+            <input
+              class="my-3 col-10 bmiBtn"
+              type="button"
+              id="sumbit"
+              value="calculato BMI"
+            />
+            <div class="">
+              <h3>Your BMI is</h3>
+              <span
+                type="number"
+                name=""
+                id="finall"
+                style="
+                  text-align: center;
+                  background-color: rgb(224, 224, 224);
+                  border: white 1px solid;
+                  border-radius: 10px;
+                  font-size: xx-large;
+                  padding: 0px 20px;
+                "
+                >00.00
+              </span>
+              <div id="answer" class=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
