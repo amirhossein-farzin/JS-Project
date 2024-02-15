@@ -1,1 +1,1 @@
-# JS-Project
+# JS-Practice
